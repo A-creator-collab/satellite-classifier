@@ -1,3 +1,4 @@
+<img width="1920" height="955" alt="stremlit-demo" src="https://github.com/user-attachments/assets/56df9275-666f-4fd2-95f2-d1acfe706179" />
 # satellite-classifier
 
 Fine-tunes a ResNet-18 to classify 64x64 Sentinel-2 RGB patches from EuroSAT into 10 land-use classes. Includes training, evaluation, GradCAM overlays, a FastAPI endpoint, and a Streamlit app.
