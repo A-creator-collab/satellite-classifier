@@ -44,7 +44,7 @@ The training script checks for this layout first and skips the download if the f
 
 ## Install
 
-Run from the repository root. Tested on Windows 11 with Python 3.13.
+Run from the repository root. Tested on Windows 11 with Python 3.13. CI runs on Python 3.11.
 
 ```bash
 python -m venv .venv
