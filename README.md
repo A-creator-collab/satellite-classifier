@@ -14,7 +14,7 @@ ResNet-18, two-phase fine-tuning, 15 epochs total (3 head, 12 fine-tune).
 
 Run the commands below to reproduce these numbers.
 
-<img width="1920" height="955" alt="stremlit-demo" src="https://github.com/user-attachments/assets/56df9275-666f-4fd2-95f2-d1acfe706179" />
+<img width="1920" height="955" alt="streamlit-demo" src="https://github.com/user-attachments/assets/56df9275-666f-4fd2-95f2-d1acfe706179" />
 
 ## Dataset
 
