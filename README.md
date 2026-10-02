@@ -1,4 +1,4 @@
-<img width="1920" height="955" alt="stremlit-demo" src="https://github.com/user-attachments/assets/56df9275-666f-4fd2-95f2-d1acfe706179" />
+
 # satellite-classifier
 
 Fine-tunes a ResNet-18 to classify 64x64 Sentinel-2 RGB patches from EuroSAT into 10 land-use classes. Includes training, evaluation, GradCAM overlays, a FastAPI endpoint, and a Streamlit app.
@@ -13,6 +13,8 @@ ResNet-18, two-phase fine-tuning, 15 epochs total (3 head, 12 fine-tune).
 - Training time: ~70 minutes on Windows 11, CPU-only
 
 Run the commands below to reproduce these numbers.
+
+<img width="1920" height="955" alt="stremlit-demo" src="https://github.com/user-attachments/assets/56df9275-666f-4fd2-95f2-d1acfe706179" />
 
 ## Dataset
 
