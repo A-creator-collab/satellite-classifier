@@ -1,0 +1,26 @@
+seed: 42
+paths:
+  data_dir: data
+  outputs_dir: outputs
+  checkpoint: outputs/best_model.pt
+  splits: outputs/splits.json
+data:
+  url: local  # TODO: verify dataset URL
+  val_fraction: 0.15
+  test_fraction: 0.15
+  num_workers: 2
+  input_size: 128
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+model:
+  backbone: resnet18
+  pretrained: true
+train:
+  batch_size: 64
+  epochs_head: 3
+  epochs_finetune: 12
+  lr_head: 0.001
+  finetune_lr_factor: 0.1
+  weight_decay: 0.0001
+gradcam:
+  num_samples: 12
